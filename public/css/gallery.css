@@ -1,0 +1,177 @@
+body{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://toppng.com/uploads/preview/texture-surface-dark-blue-11570456514lgg3xugs36.jpg);
+
+}
+/* navbar */
+.wrap{
+	margin:0;
+	padding: 0;
+}
+nav{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height:100px;
+	padding: 10px 90px;
+	box-sizing:border-box;
+	background: rgb(0, 0, 0);
+}
+nav .logo{
+	padding: 22px 20px;
+	height: 80px;
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+}
+nav ul{
+	float: right;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+nav ul li a{
+	line-height: 80px;
+	color: #fff;
+	padding: 12px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+}
+nav ul li a:hover{
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 6px;
+}
+nav ul li a.active{
+	background: #e2472f;
+	color: #fff;
+	border-radius: 6px;
+}
+.boom{
+	width: 100%;
+	height:100vh;
+	background-size: cover;
+
+}
+.gallery{
+  margin: 30px 50px;
+}
+.heading{
+  position: relative;
+  top: 70px;
+}
+.gallery img{
+  transition: 1s;
+  padding: 15px;
+  width: 350px;
+}
+.gallery img:hover{
+  filter: grayscale(100%);
+  transform: scale(1.1);
+}
+/* footer section */
+.footer-main-div{
+	width: 100%;
+	height: 240px;
+	margin: auto;
+	background: #000;
+	padding: 20px 0px;
+
+
+}
+.footer-social-icons{
+	width: 100%;
+	height: auto;
+	margin: auto;
+
+}
+
+.footer-social-icons ul{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	position: relative;
+	top: 0px;
+}
+
+.footer-social-icons ul li{
+	display: inline-block;
+	width:50px;
+	height: 50px;
+	margin: 0 10px;
+	border-radius: 100%;
+	background: #fff;
+
+}
+.footer-social-icons ul li a{
+ color: #000;
+ font-size: 25px;
+ display: block;
+}
+
+.footer-social-icons ul li a i{
+	line-height: 50px;
+}
+
+.footer-menu-one{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.footer-menu-one ul{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	position: relative;
+	top: 0px;
+}
+
+.footer-menu-one ul li{
+	display: inline-block;
+	margin: 0 20px;
+}
+.footer-menu-one ul li a{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+
+}
+.footer-bottom{
+	background: rgb(190, 190, 190);
+	height: auto;
+	position: relative;
+  top: -15px;
+}
+.footer-bottom p{
+	margin-left: 10px;
+}
+.footer-social-icons h1{
+	color: white;
+	position: relative;
+	top: 0;
+	left: 10px;
+  font-family: "Raleway";
+  font-size: 60px;
+  font-weight: bold;
+}
+.address{
+	position: relative;
+	text-align: right;
+	right: 20px;
+	top:-130px;
+}
+.address p{
+	color: white;
+  position: relative;
+  top: -40px;
+  margin:0;
+  padding: 0;
+}

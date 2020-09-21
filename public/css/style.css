@@ -1,0 +1,452 @@
+.main{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://toppng.com/uploads/preview/texture-surface-dark-blue-11570456514lgg3xugs36.jpg);
+}
+
+/* navbar */
+.wrap{
+	margin:0;
+	padding: 0;
+}
+nav{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height:100px;
+	padding: 10px 90px;
+	box-sizing:border-box;
+	background: rgb(0, 0, 0);
+}
+nav .logo{
+	padding: 22px 20px;
+	height: 80px;
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+}
+nav ul{
+	float: right;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+nav ul li a{
+	line-height: 80px;
+	color: #fff;
+	padding: 12px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+}
+nav ul li a:hover{
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 6px;
+}
+nav ul li a.active{
+	background: #e2472f;
+	color: #fff;
+	border-radius: 6px;
+}
+.boom{
+	width: 100%;
+	height:100vh;
+	background-size: cover;
+
+}
+/* first section */
+
+.hs-wrapper{
+	width: 1300px;
+	height: 700px;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  margin-top: 100px;
+}
+.hs-wrapper img{
+	top: 0;
+	left: 0;
+	position: absolute;
+	-webkit-animation: showMe 8.0s linear infinite 0s forwards;
+	-moz-animation: showMe 8.0s linear infinite 0s forwards;
+	-o-animation: showMe 8.0s linear infinite 0s forwards;
+	-ms-animation: showMe 8.0s linear infinite 0s forwards;
+	animation: showMe 8.0s linear infinite 0s forwards;
+	-webkit-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+	-o-animation-play-state: paused;
+	-ms-animation-play-state: paused;
+	animation-play-state: paused;
+}
+.hs-wrapper img:nth-child(1){
+	z-index: 9;
+}
+.hs-wrapper img:nth-child(2){
+    -webkit-animation-delay: 1.0s;
+	-moz-animation-delay: 1.0s;
+	-o-animation-delay: 1.0s;
+	-ms-animation-delay: 1.0s;
+	animation-delay: 1.0s;
+	z-index: 8;
+}
+.hs-wrapper img:nth-child(3){
+    -webkit-animation-delay: 2.0s;
+	-moz-animation-delay: 2.0s;
+	-o-animation-delay: 2.0s;
+	-ms-animation-delay: 2.0s;
+	animation-delay: 2.0s;
+	z-index: 7;
+}
+.hs-wrapper img:nth-child(4){
+    -webkit-animation-delay: 3.0s;
+	-moz-animation-delay: 3.0s;
+	-o-animation-delay: 3.0s;
+	-ms-animation-delay: 3.0s;
+	animation-delay: 3.0s;
+	z-index: 6;
+}
+.hs-wrapper img:nth-child(5){
+    -webkit-animation-delay: 4.0s;
+	-moz-animation-delay: 4.0s;
+	-o-animation-delay: 4.0s;
+	-ms-animation-delay: 4.0s;
+	animation-delay: 4.0s;
+	z-index: 5;
+}
+.hs-wrapper img:nth-child(6){
+    -webkit-animation-delay: 5.0s;
+	-moz-animation-delay: 5.0s;
+	-o-animation-delay: 5.0s;
+	-ms-animation-delay: 5.0s;
+	animation-delay: 5.0s;
+	z-index: 4;
+}
+.hs-wrapper img:nth-child(7){
+    -webkit-animation-delay: 6.0s;
+	-moz-animation-delay: 6.0s;
+	-o-animation-delay: 6.0s;
+	-ms-nimation-delay: 6.0s;
+	animation-delay: 6.0s;
+	z-index: 3;
+}
+.hs-wrapper img:nth-child(8){
+    -webkit-animation-delay: 7.0s;
+	-moz-animation-delay: 7.0s;
+	-o-animation-delay: 7.0s;
+	-ms-animation-delay: 7.0s;
+	animation-delay: 7.0s;
+	z-index: 2;
+}
+.hs-wrapper:hover img{
+	-webkit-animation-play-state: running;
+	-moz-animation-play-state: running;
+	-o-animation-play-state: running;
+	-ms-animation-play-state: running;
+	animation-play-state: running;
+}
+.hs-overlay{
+	position: relative;
+	width: 1300px;
+	height: 100%;
+	opacity: 0;
+	z-index: 500;
+	background: rgba(0,0,0,0.6);
+	box-shadow: 0 0 0 0 rgba(255,255,255,0.3) inset;
+	pointer-events: none;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+.hs-overlay span{
+	display: block;
+	padding: 20px;
+	position: absolute;
+	width: 1300px;
+	left: 20px;
+	top: 200px;
+	color: #fff;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 38px;
+	border-top: 1px solid rgba(255,255,255,0.3);
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+	text-align: center;
+	pointer-events: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.hs-wrapper:hover .hs-overlay{
+	opacity: 1;
+	box-shadow: 0 0 0 5px rgba(255,255,255,0.3) inset;
+}
+
+@-webkit-keyframes showMe {
+    0% { visibility: visible; z-index: 100; }
+	12.5% { visibility: visible; z-index: 100; }
+	25% { visibility: hidden; z-index: 0; }
+    100% { visibility: hidden; z-index: 0; }
+}
+
+@-moz-keyframes showMe {
+    0% { visibility: visible; z-index: 100; }
+	12.5% { visibility: visible; z-index: 100; }
+	25% { visibility: hidden; z-index: 0; }
+    100% { visibility: hidden; z-index: 0; }
+}
+
+@-o-keyframes showMe {
+    0% { visibility: visible; z-index: 100; }
+	12.5% { visibility: visible; z-index: 100; }
+	25% { visibility: hidden; z-index: 0; }
+    100% { visibility: hidden; z-index: 0; }
+}
+
+@-ms-keyframes showMe {
+    0% { visibility: visible; z-index: 100; }
+	12.5% { visibility: visible; z-index: 100; }
+	25% { visibility: hidden; z-index: 0; }
+    100% { visibility: hidden; z-index: 0; }
+}
+
+@keyframes showMe {
+    0% { visibility: visible; z-index: 100; }
+	12.5% { visibility: visible; z-index: 100; }
+	25% { visibility: hidden; z-index: 0; }
+    100% { visibility: hidden; z-index: 0; }
+}
+
+/* cuisines section */
+.cui{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://expertphotography.com/wp-content/uploads/2018/07/dark-food-photography-serving-1.jpg);
+}
+.cuisines {
+
+	 font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	 font-size: 14px;
+	 color: #000;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 margin: 0;
+	 padding: 0;
+ }
+
+ .swiper-container {
+	 width: 100%;
+	 padding-top: 50px;
+	 padding-bottom: 200px;
+ }
+
+ .swiper-slide {
+	 background-position: center;
+	 background-size:cover;
+	 width: 300px;
+	 height:300px;
+	 -webkit-box-reflect:below 1px linear-gradient(transparent,transparent,#0006)
+
+ }
+/* reviews section */
+.rev{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://img.etimg.com/photo/msid-70160112,quality-100/blackicecream.jpg);
+  background-size: cover;
+  height: 500px;
+}
+.reviews{
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.container{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	width: 1000px;
+	position: relative;
+	display:flex;
+	justify-content: space-between;
+
+}
+.container .card{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	position: relative;
+	width: 300px;
+	height: 200px;
+
+}
+.container .card .face{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: 0.5s;
+}
+.container .card .face.face1{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background:#000 ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+	transform-origin: bottom;
+}
+.container .card .face.face1 img{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-size: contain;
+	float:left;
+
+}
+.container .card:hover .face.face1{
+	transform: translateY(-100%) rotateX(90deg);
+	background: rgb(190, 190, 190);
+
+}
+
+.container .card .face.face2{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	transform-origin: top;
+	transform: translateY(100%) rotateX(90deg);
+}
+.container .card:hover .face.face2{
+	transform: translateY(0) rotateX(0deg);
+}
+.container .card .face.face2 content{
+	word-wrap: break-word;
+}
+
+/* location section */
+
+/* footer section */
+.footer-main-div{
+	width: 100%;
+	height: 190px;
+	margin: auto;
+	background: #000;
+	padding: 20px 0px;
+
+}
+.footer-social-icons{
+	width: 100%;
+	height: auto;
+	margin: auto;
+
+}
+
+.footer-social-icons ul{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	position: relative;
+	top: -20px;
+}
+
+.footer-social-icons ul li{
+	display: inline-block;
+	width:50px;
+	height: 50px;
+	margin: 0 10px;
+	border-radius: 100%;
+	background: #fff;
+
+}
+.footer-social-icons ul li a{
+ color: #000;
+ font-size: 25px;
+ display: block;
+}
+
+.footer-social-icons ul li a i{
+	line-height: 50px;
+}
+
+.footer-menu-one{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.footer-menu-one ul{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	position: relative;
+	top: -20px;
+}
+
+.footer-menu-one ul li{
+	display: inline-block;
+	margin: 0 20px;
+}
+.footer-menu-one ul li a{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+
+}
+.footer-bottom{
+	background: rgb(190, 190, 190);
+	height: auto;
+	position: relative;
+}
+.footer-bottom p{
+	margin-left: 10px;
+}
+.footer-social-icons h1{
+	color: white;
+	position: relative;
+	top:-30px;
+	left: 10px;
+  font-family: "Raleway";
+  font-size: 60px;
+  font-weight: bold;
+}
+.address{
+	position: relative;
+	text-align: right;
+	right: 20px;
+	top:-170px;
+}
+.address p{
+	color: white;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 10px;
+}
